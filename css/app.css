@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(194, 215, 255);
+}
+
+h1{
+  font-family: "Comic Sans MS", sans-serif;
+  color: rgb(47, 108, 179);
+  text-shadow: 3px, 3px, 8px rgba(255, 255, 255, 0.5);
+}
